@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".secimekrani">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/hatirlaticisimgeId"
+            android:layout_width="270dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/hatirlaticigirisekrani" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/HatırlaticiEkranId"
+                android:layout_width="146dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:text="HATIRLATICI"
+                android:textSize="14sp"
+                app:backgroundTint="#FF5722" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="80dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/idealboykilosimgeId"
+            android:layout_width="270dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/idealboykilodurumugirisekrani" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/IdealBoyKiloDurumuId"
+                android:layout_width="146dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:text="İDEAL BOY-KİLO DURUMU"
+                android:textSize="14sp"
+                app:backgroundTint="#FF5722" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="80dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/egzersizlersimgeId"
+            android:layout_width="270dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/egzersizgirisekrani" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/EgzersizlerId"
+                android:layout_width="146dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:text="EGZERSİZLER"
+                android:textSize="14sp"
+                app:backgroundTint="#FF5722" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

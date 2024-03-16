@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yanndaym">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Yanındayım">
+        <activity android:name=".ellerhavadatammekik"></activity>
+        <activity android:name=".ayakhavadayarim" />
+        <activity android:name=".ellerhavadayarimmekik" />
+        <activity android:name=".karinegzersizleri" />
+        <activity android:name=".demiradim" />
+        <activity android:name=".ikielbelindeziplama" />
+        <activity android:name=".tekayakuzerindeziplama" />
+        <activity android:name=".bacakegzersizleri" />
+        <activity android:name=".kolkaldirma" />
+        <activity android:name=".agirlikkaldirma" />
+        <activity android:name=".basustundealkislama" />
+        <activity android:name=".kolegzersizleri" />
+        <activity android:name=".egzersizler" />
+        <activity android:name=".idealboykilodurumu" />
+        <activity android:name=".hatirlatici" />
+        <activity android:name=".secimekrani" />
+        <activity android:name=".bilgial" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

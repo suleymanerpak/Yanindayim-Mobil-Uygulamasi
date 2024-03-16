@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".demiradim">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifDemirAdimImageId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/demiradim"/>
+
+    <TextView
+        android:id="@+id/textDemirAdimBaslikId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="DEMİR ADIM"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textDemirAdimAciklamaId"
+        android:layout_width="370dp"
+        android:layout_height="118dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="İki elinizi kafanızın arkasında birleştirin.Zıplama vari hareket ettikten sonra sol ayağınızı öne kırarak sağ ayağınızı arkaya doğru kırarak olduğunuz yerde adım atın.Her iki ayağınızı da 12 tekrar yapmayı unutma."
+        android:textColor="#000000"
+        android:textSize="18sp" />
+</LinearLayout>

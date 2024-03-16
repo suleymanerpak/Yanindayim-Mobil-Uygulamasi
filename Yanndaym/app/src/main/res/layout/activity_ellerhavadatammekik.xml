@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ellerhavadatammekik">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifEllerHavadaTamImageId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ellerhavadatammekik"/>
+
+    <TextView
+        android:id="@+id/textEllerHavadaBaslikId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="ELLER HAVADA TAM MEKİK"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textEllerHavadaAciklamaId"
+        android:layout_width="331dp"
+        android:layout_height="118dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Sırt üstü yatın.Dizlerini paralel olacak şekilde kırın.İki elinizi birleştirin ve arkaya doğru koyun.Ellerinizi paralel şekilde kaldırın ve tam mekik çekin.Elleriniz ayaklarınızın arasında olsun.8 tekrar yapın"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+</LinearLayout>

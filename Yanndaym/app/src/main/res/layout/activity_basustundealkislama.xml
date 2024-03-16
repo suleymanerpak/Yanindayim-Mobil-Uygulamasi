@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".basustundealkislama">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifBasUstundeImageId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/basustunde" />
+
+    <TextView
+        android:id="@+id/textBasUstundeBaslikId"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="BAŞ ÜSTÜNDE ALKIŞLAMA"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textBasUstundeAciklamaId"
+        android:layout_width="335dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="118dp"
+        android:layout_marginTop="3dp"
+        android:text="Dik bir şekilde durun.İki kolunuzu paralel olarak açın.Elleriniz aşağıya doğru baksın.Kafanıza doğru aynı anda paralel bir şekilde ellerinizi kaldırın ve kafanınız yukarısında birleştirin.Ellerinizi alkışlayacak şekilde birleştirin.12 tekrar yapmayı unutmayın."
+        android:textColor="#000000"
+        android:textSize="16sp" />
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".agirlikkaldirma">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifAgirlikImageId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/agirlik" />
+
+    <TextView
+        android:id="@+id/textAgirlikBaslikId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="AĞIRLIK KALDIRMA"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textAgirlikAciklamaId"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:text="Dik bir şekilde durun.Elinize aldığınız ağırlıkları aynı pozisyonda ve dışarı bakacak şekilde durdurun.Sol elinizle ağırlığı kaldırdıktan sonra indirin ve aynı şekilde sağ elinizdeki ağırlığı kaldırın ve indirin.Ara ara dinlenerek yapmaya çalışın.Her bir kol için 12 tekrar yapmayı unutmayın."
+        android:textColor="#000000"
+        android:textSize="16sp" />
+</LinearLayout>

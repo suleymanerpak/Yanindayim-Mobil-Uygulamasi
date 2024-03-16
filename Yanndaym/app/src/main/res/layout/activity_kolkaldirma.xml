@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".kolkaldirma">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifYuzUstuImageId"
+        android:layout_width="match_parent"
+        android:layout_height="428dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/kolkaldirma" />
+
+    <TextView
+        android:id="@+id/textYuzUstuBaslikId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="YÜZ ÜSTÜ KALARAK KOL KALDIRMA"
+        android:textColor="#000000"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textYuzUstuAciklamaId"
+        android:layout_width="369dp"
+        android:layout_height="146dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="Yüz üstü yatar pozisyona geçin.İki elinizi ayaklarınız ile paralel hale getirin.Ayaklarınız parmak ucunda kalsın.İki elinizi yüzünüz ile paralel halde tutun.Şınav çekin.Çektikten sonra sol elinizi havaya kaldırın ve yukarı bakın.Aynı anda sağ elinizden destek almayı unutmayın.Aynı işlemi sağ eliniz için de yapın.10 tekrar yapmayı unutmayın."
+        android:textColor="#000000"
+        android:textSize="16sp" />
+</LinearLayout>
